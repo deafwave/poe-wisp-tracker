@@ -5,13 +5,11 @@ and draws `juice (stat%)` on empowered monsters.
 
 ## Calibration
 
-### Purple (area)
+### Purple (area/projectiles)
 
+Spitball: 1k purple is about 50-100% rarity.
 `area% = 30 + 15/1000 × juice` (juice ≤ 5000)
 `area% = 55 + 10/1000 × juice` (juice > 5000)
-
-Projectiles are shown but untracked so far.
-Spitball: 1k purple is about 50-100% rarity.
 
 - 701 purple = 41% area
 - 1k purple = 45% area
@@ -20,14 +18,10 @@ Spitball: 1k purple is about 50-100% rarity.
 - 5k purple = 105% area
 - 8652 purple = 140% area
 
-### Yellow (velocity)
+### Yellow (velocity/attack speed)
 
-`velocity% = 25 + 10/1000 × juice`
-Strip `MonsterModAttackCastMovementSpeed` (−50) and
-`MapMonstersMovementSpeedPct` first.
-
-Attack speed is shown but untracked so far.
 Spitball: 1k yellow is about 30-50% quant.
+`velocity% = 25 + 10/1000 × juice`
 
 - 2k yellow = 45% velocity
 - 3553 yellow = 60% velocity
@@ -37,7 +31,7 @@ Spitball: 1k yellow is about 30-50% quant.
 
 ### Blue
 
-Not shown on the client side.
+Not shown on the client side? Maybe in a crit map?
 
 ## Rules
 
