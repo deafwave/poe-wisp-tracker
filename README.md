@@ -7,7 +7,11 @@ and draws `juice (stat%)` on empowered monsters.
 
 ### Purple (area)
 
+`area% = 30 + 15/1000 × juice` (juice ≤ 5000)
+`area% = 55 + 10/1000 × juice` (juice > 5000)
+
 Projectiles are shown but untracked so far.
+Spitball: 1k purple is about 50-100% rarity.
 
 - 701 purple = 41% area
 - 1k purple = 45% area
@@ -18,7 +22,12 @@ Projectiles are shown but untracked so far.
 
 ### Yellow (velocity)
 
+`velocity% = 25 + 10/1000 × juice`
+Strip `MonsterModAttackCastMovementSpeed` (−50) and
+`MapMonstersMovementSpeedPct` first.
+
 Attack speed is shown but untracked so far.
+Spitball: 1k yellow is about 30-50% quant.
 
 - 2k yellow = 45% velocity
 - 3553 yellow = 60% velocity
