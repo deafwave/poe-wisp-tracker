@@ -41,5 +41,5 @@ Not shown on the client side?
   Can roll 2k/2k/2k. Cannot roll 6k/0k/0k.
 - 2x Scarab of Wisps: 4k added to a type. Multiple types = 4k each.
   Can roll 4k/4k/4k. Cannot roll 12k/0k/0k.
-- Thorough Exploration adds 1k random wisps to the boss
+- Thorough Exploration adds 1k random wisps to the boss (1k blue or 1k purple or 1k yellow)
   
